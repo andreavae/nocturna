@@ -14,19 +14,19 @@ date: 2026-06-29
 
 tags:
 
-  \- esoterismo
+\- esoterismo
 
-  \- spiritualità
+\- spiritualità
 
-  \- tarocchi
+\- tarocchi
 
-  \- cristalli
+\- cristalli
 
-  \- luna
+\- luna
 
-  \- rituali
+\- rituali
 
-\# ✨ Benvenuta nel mio mondo esoterico
+\#  Benvenuta nel mio mondo esoterico
 
 \## Introduzione
 
@@ -52,15 +52,15 @@ Mi chiamo \*\*Benedetta\*\* e da sempre sono affascinata da tutto ciò che rigua
 
 Nel tempo ho iniziato a studiare e approfondire diversi strumenti:
 
-\- 🔮 I tarocchi e il loro linguaggio simbolico
+\-  I tarocchi e il loro linguaggio simbolico
 
-\- 💎 Le pietre e i cristalli e il loro significato energetico
+\- Le pietre e i cristalli e il loro significato energetico
 
-\- 🌙 Le fasi lunari e il loro impatto sul nostro stato emotivo
+\- Le fasi lunari e il loro impatto sul nostro stato emotivo
 
-\- 🌿 I rituali e le pratiche spirituali quotidiane
+\- I rituali e le pratiche spirituali quotidiane
 
-\- ✨ I concetti di manifestazione e intenzione
+\- I concetti di manifestazione e intenzione
 
 Questo spazio nasce come un \*\*diario condiviso\*\*, un luogo in cui raccogliere tutto ciò che sto imparando e sperimentando.
 
@@ -74,23 +74,23 @@ Questo non è un blog fatto di regole rigide o verità assolute.
 
 Qui troverai contenuti dedicati a:
 
-\### 🌙 Luna e fasi lunari
+\###  Luna e fasi lunari
 
 Spiegazioni, significati e piccoli rituali legati alla Luna nuova, alla Luna piena e ai cicli energetici.
 
-\### 🔮 Tarocchi e simboli
+\###  Tarocchi e simboli
 
 Introduzioni alle carte, letture base e interpretazioni intuitive.
 
-\### 💎 Cristalli e pietre
+\###  Cristalli e pietre
 
 Proprietà energetiche, utilizzi e consigli pratici per sceglierli e lavorarci.
 
-\### 🌿 Erbe e rituali
+\###  Erbe e rituali
 
 Piccoli gesti quotidiani, incantesimi simbolici e pratiche di connessione personale.
 
-\### ✨ Spiritualità moderna
+\###  Spiritualità moderna
 
 Manifestazione, sincronicità, numeri ricorrenti e crescita personale.
 
