@@ -8,8 +8,6 @@ starryBackground: true
 
 Benvenuta nel mio mondo esoterico
 
-Introduzione
-
 C’è un momento, nella vita di molte persone, in cui si inizia a sentire che esiste qualcosa di più profondo di ciò che si vede.
 
 Può essere un’intuizione improvvisa, un segno che torna più volte, una sensazione che la Luna stia parlando in qualche modo, oppure semplicemente il bisogno di rallentare e riconnettersi con sé stesse.
@@ -18,7 +16,7 @@ Se sei arrivata qui, forse anche tu stai attraversando questo momento.
 
 Questo blog nasce proprio da qui: dal desiderio di esplorare il mondo dell’esoterismo in modo semplice, moderno e autentico, senza paura di fare domande e senza la necessità di crederci per forza, ma con apertura e curiosità.
 
-Chi sono
+### **Chi sono**
 
 Mi chiamo Benedetta e da sempre sono affascinata da tutto ciò che riguarda l’energia, i simboli e il mondo invisibile che spesso percepiamo più di quanto riusciamo a spiegare.
 
@@ -42,7 +40,7 @@ Erbe e rituali: utilizzo simbolico delle erbe, rituali semplici da fare a casa, 
 
 Spiritualità moderna: manifestazione, sincronicità, numeri angelici, crescita personale, intuizione e consapevolezza.
 
-Il mio approccio
+### **Il mio approccio**
 
 Non credo che l’esoterismo debba essere qualcosa di distante, complicato o difficile da comprendere. Lo immagino invece come qualcosa di semplice, personale, intuitivo e accessibile.
 
@@ -58,28 +56,36 @@ Ho deciso di creare questo spazio perché sento il bisogno di dare forma a un pe
 
 Il mio obiettivo è creare uno spazio che sia semplice, ordinato, accogliente e accessibile anche a chi è alle prime esperienze. Un luogo in cui poter dire: Ok, inizio da qui.
 
-Da dove iniziare
+### **Da dove iniziare**
 
 Se sei nuova in questo mondo, ti consiglio di partire da questi argomenti:
 
-Come scegliere il primo mazzo di tarocchi
+* Come scegliere il primo mazzo di tarocchi
 
-Come purificare i cristalli
+<!---->
 
-Le pietre più adatte per iniziare
+* Come purificare i cristalli
 
-Il significato della Luna nuova
+<!---->
 
-Introduzione ai rituali energetici
+* Le pietre più adatte per iniziare
+
+<!---->
+
+* Il significato della Luna nuova
+
+<!---->
+
+* Introduzione ai rituali energetici
 
 Non serve sapere tutto subito. La spiritualità non è una corsa, ma un percorso che si builds un passo alla volta.
 
-Un invito
+### **Un invito**
 
 Questo blog non è solo mio. Spero che, con il tempo, diventi uno spazio condiviso dove ogni lettrice possa sentirsi libera di riflettere, esplorare nuovi argomenti, fare domande e riconoscersi nelle esperienze raccontate.
 
 Se anche solo uno degli articoli che leggerai riuscirà a farti fermare un istante o a guardare le cose da una prospettiva diversa, allora questo progetto avrà già raggiunto il suo scopo.
 
-Conclusione
+### **Conclusione**
 
 Benvenuta nel mio mondo esoterico. O forse, più semplicemente, nel tuo.
