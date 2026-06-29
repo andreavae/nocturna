@@ -6,30 +6,6 @@ auraColor: deep-purple
 starryBackground: true
 ---
 
-\---
-
-title: "Benvenuta nel mio mondo esoterico"
-
-description: "Scopri un blog dedicato a tarocchi, cristalli, fasi lunari, rituali e spiritualità moderna. Uno spazio per esplorare il mondo esoterico con curiosità e consapevolezza."
-
-date: 2026-06-29
-
-tags:
-
-  \- esoterismo
-
-  \- spiritualità
-
-  \- tarocchi
-
-  \- cristalli
-
-  \- luna
-
-  \- rituali
-
-\---
-
 \# Benvenuta nel mio mondo esoterico
 
 \## Introduzione
