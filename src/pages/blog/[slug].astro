@@ -1,0 +1,159 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import TinaMarkdown from '@tinacms/astro/TinaMarkdown.astro';
+import { client } from '../../../tina/__generated__/client';
+
+// Genera i percorsi statici per tutti i post nel CMS
+export async function getStaticPaths() {
+  const postsResponse = await client.queries.postConnection();
+  return postsResponse.data.postConnection.edges?.map((edge) => ({
+    params: { slug: edge.node._sys.filename },
+  })) || [];
+}
+
+const { slug } = Astro.params;
+
+// Recupera i dati del post specifico
+const postResponse = await client.queries.post({ relativePath: `${slug}.md` });
+const post = postResponse.data.post;
+
+// Formatta la data in italiano
+function formatDate(dateString: string) {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('it-IT', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  });
+}
+
+// Mappatura dei gradienti dell'aura
+const auraGlows = {
+  'deep-purple': 'bg-[radial-gradient(circle_at_center,rgba(139,92,246,0.15)_0%,rgba(9,7,15,0)_75%)]',
+  'cosmic-black': 'bg-transparent',
+  'blood-moon': 'bg-[radial-gradient(circle_at_center,rgba(185,28,28,0.12)_0%,rgba(9,7,15,0)_75%)]',
+  'witch-green': 'bg-[radial-gradient(circle_at_center,rgba(16,185,129,0.1)_0%,rgba(9,7,15,0)_75%)]',
+};
+
+const auraColorKey = post.auraColor || 'deep-purple';
+const auraGlowClass = auraGlows[auraColorKey as keyof typeof auraGlows] || auraGlows['deep-purple'];
+const hasImage = post.image && post.image.trim() !== "";
+---
+
+<Layout title={`${post.title} — Nocturna`} description={`Leggi l'articolo: ${post.title}`}>
+  <!-- Header Sottile ed Elegante -->
+  <header class="border-b border-purple-950/30 bg-[#09070f]/80 backdrop-blur-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-3 group">
+        <svg 
+          class="w-6 h-6 text-[#d4af37] fill-current drop-shadow-[0_0_8px_rgba(212,175,55,0.6)] group-hover:rotate-12 transition-transform duration-500" 
+          viewBox="0 0 24 24"
+        >
+          <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+        </svg>
+        <span class="font-cinzel text-xl font-bold tracking-[0.2em] text-[#f1ecf9] group-hover:text-purple-300 transition-colors duration-300">
+          NOCTURNA
+        </span>
+      </a>
+      <a href="/" class="text-xs tracking-widest text-purple-300/60 hover:text-[#d4af37] transition-colors duration-300 uppercase">
+        ← Torna alle cronache
+      </a>
+    </div>
+  </header>
+
+  <main class="relative flex-grow py-12 md:py-20">
+    <!-- Sfondi Dinamici (Aura e Stelle) -->
+    <div class={`absolute inset-0 -z-10 pointer-events-none ${auraGlowClass}`} aria-hidden="true"></div>
+    {post.starryBackground && (
+      <div class="absolute inset-0 -z-20 pointer-events-none starry-bg opacity-25" aria-hidden="true"></div>
+    )}
+
+    <article class="max-w-3xl mx-auto px-6">
+      <!-- Intestazione Articolo -->
+      <header class="text-center space-y-6 mb-12">
+        <div class="text-xs text-[#d4af37] tracking-widest uppercase font-medium">
+          <span>{formatDate(post.date)}</span>
+          {post.auraColor && (
+            <>
+              <span class="mx-2">•</span>
+              <span>Energia: {post.auraColor.replace('-', ' ')}</span>
+            </>
+          )}
+        </div>
+        
+        <h1 class="text-3xl md:text-5xl font-extrabold tracking-wide text-[#f1ecf9] leading-tight font-cinzel">
+          {post.title}
+        </h1>
+        
+        <div class="w-24 h-px bg-gradient-to-r from-transparent via-[#d4af37]/60 to-transparent mx-auto"></div>
+      </header>
+
+      <!-- Immagine di Copertina -->
+      {hasImage && (
+        <div class="mb-12 rounded-2xl overflow-hidden border border-purple-950/40 shadow-[0_10px_30px_rgba(139,92,246,0.15)]">
+          <img 
+            src={post.image} 
+            alt={post.title} 
+            class="w-full h-auto max-h-[450px] object-cover"
+          />
+        </div>
+      )}
+
+      <!-- Corpo del Testo con Capolettera -->
+      <div class="prose prose-invert prose-purple max-w-none prose-mystic text-purple-200/90 leading-relaxed text-lg space-y-6">
+        <TinaMarkdown content={post.body} />
+      </div>
+
+      <!-- Sezione Commenti Cusdis -->
+      <section class="mt-20 border-t border-purple-950/40 pt-16">
+        <div class="text-center mb-8">
+          <h3 class="font-cinzel text-2xl text-[#f1ecf9] tracking-widest">
+            Risonanze dell'Etere
+          </h3>
+          <p class="text-xs text-purple-300/40 tracking-wider mt-2">
+            Lascia la tua riflessione o condividi la tua visione.
+          </p>
+        </div>
+        
+        <div 
+          id="cusdis_thread"
+          data-host="https://cusdis.com"
+          data-app-id="f81d11e5-8a24-4fdf-9730-80ea466a988d"
+          data-page-id={slug}
+          data-page-url={Astro.url.toString()}
+          data-page-title={post.title}
+          class="bg-[#110d1a]/20 border border-purple-950/30 p-6 rounded-2xl min-h-[150px]"
+        ></div>
+        
+        <script is:inline async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+      </section>
+    </article>
+  </main>
+</Layout>
+
+<style is:global>
+  /* Aggiunge stile addizionale al contenuto del Markdown per renderlo coerente */
+  .prose-mystic img {
+    border-radius: 1rem;
+    border: 1px solid rgba(126, 34, 206, 0.2);
+    box-shadow: 0 10px 25px rgba(126, 34, 206, 0.15);
+    margin: 2rem auto;
+  }
+  .prose-mystic blockquote {
+    border-left-color: #d4af37;
+    color: #e5def1;
+    font-style: italic;
+    background-color: rgba(17, 13, 26, 0.3);
+    padding: 1rem 1.5rem;
+    border-radius: 0 1rem 1rem 0;
+  }
+  .prose-mystic a {
+    color: #d4af37;
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+    transition: color 0.3s;
+  }
+  .prose-mystic a:hover {
+    color: #f1ecf9;
+  }
+</style>

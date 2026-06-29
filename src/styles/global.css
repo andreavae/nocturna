@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+
+@theme {
+  --font-cinzel: "Cinzel", serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+/* Base styles and custom typography */
+body {
+  font-family: var(--font-inter);
+  background-color: #09070f;
+  color: #d1cbdc;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-cinzel);
+  color: #f1ecf9;
+}
+
+/* Starry background effect */
+.starry-bg {
+  background-image: 
+    radial-gradient(1.5px 1.5px at 20px 30px, rgba(255, 255, 255, 0.8), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 40px 70px, rgba(255, 255, 255, 0.6), rgba(0,0,0,0)),
+    radial-gradient(1px 1px at 90px 10px, rgba(255, 255, 255, 0.9), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 150px 140px, rgba(255, 255, 255, 0.5), rgba(0,0,0,0)),
+    radial-gradient(1.5px 1.5px at 220px 60px, rgba(255, 255, 255, 0.7), rgba(0,0,0,0)),
+    radial-gradient(2px 2px at 280px 120px, rgba(255, 255, 255, 0.4), rgba(0,0,0,0));
+  background-size: 320px 320px;
+  background-repeat: repeat;
+}
+
+/* Drop Cap (Capolettera) for esoteric reading experience */
+.prose-mystic > p:first-of-type::first-letter {
+  font-family: var(--font-cinzel);
+  font-size: 3.5rem;
+  float: left;
+  line-height: 0.85;
+  margin-top: 0.12em;
+  margin-right: 0.15em;
+  font-weight: 700;
+  color: #d4af37;
+  text-shadow: 0 0 12px rgba(212, 175, 55, 0.5);
+}
+
+/* Smooth transitions */
+.transition-all-custom {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
