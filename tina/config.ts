@@ -2,8 +2,8 @@ import { defineConfig } from "tinacms";
 
 export default defineConfig({
   branch: process.env.VERCEL_GIT_COMMIT_REF || "main",
-  clientId: process.env.TINA_CLIENT_ID || null, 
-  token: process.env.TINA_TOKEN || null, 
+  clientId: process.env.TINA_CLIENT_ID || null,
+  token: process.env.TINA_TOKEN || null,
   build: {
     outputFolder: "admin",
     publicFolder: "public",
@@ -20,7 +20,7 @@ export default defineConfig({
         name: "post",
         label: "Articoli del Blog",
         path: "src/content/posts",
-        format: "json",
+        format: "md",
         fields: [
           { type: "string", name: "title", label: "Title", isTitle: true, required: true },
           { type: "datetime", name: "date", label: "Publication Date", required: true },
