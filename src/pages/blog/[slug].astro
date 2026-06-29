@@ -14,13 +14,13 @@ export async function getStaticPaths() {
 const { slug } = Astro.params;
 
 // Recupera i dati del post specifico
-const postResponse = await client.queries.post({ relativePath: `${slug}.md` });
+const postResponse = await client.queries.post({ relativePath: `${slug}.json` });
 const post = postResponse.data.post;
 
-// Formatta la data in italiano
+// Format date in English
 function formatDate(dateString: string) {
   const date = new Date(dateString);
-  return date.toLocaleDateString('it-IT', {
+  return date.toLocaleDateString('en-US', {
     day: 'numeric',
     month: 'long',
     year: 'numeric',
@@ -40,7 +40,7 @@ const auraGlowClass = auraGlows[auraColorKey as keyof typeof auraGlows] || auraG
 const hasImage = post.image && post.image.trim() !== "";
 ---
 
-<Layout title={`${post.title} — Nocturna`} description={`Leggi l'articolo: ${post.title}`}>
+<Layout title={`${post.title} — Nocturna`} description={`Read article: ${post.title}`}>
   <!-- Header Sottile ed Elegante -->
   <header class="border-b border-purple-950/30 bg-[#09070f]/80 backdrop-blur-md sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -56,7 +56,7 @@ const hasImage = post.image && post.image.trim() !== "";
         </span>
       </a>
       <a href="/" class="text-xs tracking-widest text-purple-300/60 hover:text-[#d4af37] transition-colors duration-300 uppercase">
-        ← Torna alle cronache
+        ← Back to chronicles
       </a>
     </div>
   </header>
@@ -76,7 +76,7 @@ const hasImage = post.image && post.image.trim() !== "";
           {post.auraColor && (
             <>
               <span class="mx-2">•</span>
-              <span>Energia: {post.auraColor.replace('-', ' ')}</span>
+              <span>Energy: {post.auraColor.replace('-', ' ')}</span>
             </>
           )}
         </div>
@@ -108,10 +108,10 @@ const hasImage = post.image && post.image.trim() !== "";
       <section class="mt-20 border-t border-purple-950/40 pt-16">
         <div class="text-center mb-8">
           <h3 class="font-cinzel text-2xl text-[#f1ecf9] tracking-widest">
-            Risonanze dell'Etere
+            Resonances of the Ether
           </h3>
           <p class="text-xs text-purple-300/40 tracking-wider mt-2">
-            Lascia la tua riflessione o condividi la tua visione.
+            Leave your reflection or share your vision.
           </p>
         </div>
         
@@ -128,7 +128,7 @@ const hasImage = post.image && post.image.trim() !== "";
             data-emit-metadata="0"
             data-input-position="bottom"
             data-theme="purple_dark"
-            data-lang="it"
+            data-lang="en"
             crossorigin="anonymous"
             async>
           </script>

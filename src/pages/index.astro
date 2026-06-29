@@ -11,10 +11,10 @@ const sortedPosts = [...posts].sort((a, b) => {
   return new Date(b.date).getTime() - new Date(a.date).getTime();
 });
 
-// Formatta la data in italiano
+// Format date in English
 function formatDate(dateString: string) {
   const date = new Date(dateString);
-  return date.toLocaleDateString('it-IT', {
+  return date.toLocaleDateString('en-US', {
     day: 'numeric',
     month: 'long',
     year: 'numeric',
@@ -22,7 +22,7 @@ function formatDate(dateString: string) {
 }
 ---
 
-<Layout title="Nocturna — Cronache dall'Etere" description="Un viaggio nel misticismo, l'alchimia e i cicli lunari. Leggi i nostri articoli.">
+<Layout title="Nocturna — Chronicles from the Ether" description="A journey into mysticism, alchemy, and lunar cycles. Read our articles.">
 	<!-- Header Sottile ed Elegante -->
 	<header class="border-b border-purple-950/30 bg-[#09070f]/80 backdrop-blur-md sticky top-0 z-50 transition-all duration-300">
 		<div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -41,10 +41,10 @@ function formatDate(dateString: string) {
 			</a>
 			
 			<nav class="hidden md:flex items-center gap-8 text-sm tracking-widest text-purple-300/60">
-				<a href="/" class="hover:text-[#d4af37] transition-colors duration-300 text-purple-200">Cronache</a>
-				<a href="#about" class="hover:text-[#d4af37] transition-colors duration-300">Chi Siamo</a>
+				<a href="/" class="hover:text-[#d4af37] transition-colors duration-300 text-purple-200">Chronicles</a>
+				<a href="#about" class="hover:text-[#d4af37] transition-colors duration-300">About</a>
 				<a href="/admin/index.html" class="px-4 py-1.5 border border-purple-900/40 rounded-full hover:border-[#d4af37] hover:text-[#d4af37] transition-all duration-300 bg-purple-950/10">
-					Scrivi
+					Write
 				</a>
 			</nav>
 		</div>
@@ -58,13 +58,13 @@ function formatDate(dateString: string) {
 			
 			<div class="relative z-10 max-w-3xl mx-auto px-4 space-y-6">
 				<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-purple-900/30 bg-purple-950/20 text-xs tracking-[0.2em] text-purple-300 uppercase">
-					<span>✨ Portale del Mistero</span>
+					<span>✨ Portal of Mystery</span>
 				</div>
 				<h1 class="text-4xl md:text-6xl font-extrabold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-[#f1ecf9] via-[#e5def1] to-[#d4af37] leading-tight">
-					Cronache dall'Etere
+					Chronicles from the Ether
 				</h1>
 				<p class="text-base md:text-lg text-purple-300/70 font-light leading-relaxed max-w-2xl mx-auto">
-					Esplora i segreti dell'antica sapienza, la magia delle stelle e l'influenza invisibile dei cicli lunari sulla nostra anima.
+					Explore the secrets of ancient wisdom, the magic of the stars, and the invisible influence of lunar cycles on our soul.
 				</p>
 			</div>
 		</section>
@@ -72,12 +72,12 @@ function formatDate(dateString: string) {
 		<!-- Griglia degli Articoli -->
 		<section class="space-y-10">
 			<h2 class="text-2xl font-bold tracking-widest text-[#f1ecf9] border-b border-purple-950/40 pb-4 mb-8">
-				Ultimi Scritti
+				Latest Chronicles
 			</h2>
 
 			{sortedPosts.length === 0 ? (
 				<div class="text-center py-16 border border-dashed border-purple-950/40 rounded-2xl bg-purple-950/5">
-					<p class="text-purple-300/40 tracking-wider">Nessun articolo trovato nel grimorio.</p>
+					<p class="text-purple-300/40 tracking-wider">No articles found in the grimoire.</p>
 				</div>
 			) : (
 				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -138,8 +138,8 @@ function formatDate(dateString: string) {
 										</h3>
 										
 										<div class="text-sm text-purple-300/50 line-clamp-3 font-light leading-relaxed">
-											{/* Se c'è un corpo di testo, mostriamo un accenno fittizio del post */}
-											Clicca per addentrarti nella lettura ed esplorare le rivelazioni di questo capitolo dell'etere.
+											{/* If there is a body text, we show a dummy hint of the post */}
+											Click to delve into the reading and explore the revelations of this chapter.
 										</div>
 									</div>
 								</a>
