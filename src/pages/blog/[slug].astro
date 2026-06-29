@@ -17,7 +17,7 @@ const { slug } = Astro.params;
 
 // Recupera i dati del post specifico
 const postResponse = await client.queries.post({
-  relativePath: `${slug}.json`,
+  relativePath: `${slug}.md`,
 });
 const post = postResponse.data.post;
 
@@ -171,8 +171,7 @@ const hasImage = post.image && post.image.trim() !== "";
             data-theme="purple_dark"
             data-lang="en"
             crossorigin="anonymous"
-            async
-          ></script>
+            async></script>
         </div>
       </section>
     </article>
