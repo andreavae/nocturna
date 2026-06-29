@@ -104,7 +104,7 @@ const hasImage = post.image && post.image.trim() !== "";
         <TinaMarkdown content={post.body} />
       </div>
 
-      <!-- Sezione Commenti Cusdis -->
+      <!-- Sezione Commenti Giscus -->
       <section class="mt-20 border-t border-purple-950/40 pt-16">
         <div class="text-center mb-8">
           <h3 class="font-cinzel text-2xl text-[#f1ecf9] tracking-widest">
@@ -115,17 +115,24 @@ const hasImage = post.image && post.image.trim() !== "";
           </p>
         </div>
         
-        <div 
-          id="cusdis_thread"
-          data-host="https://cusdis.com"
-          data-app-id="f81d11e5-8a24-4fdf-9730-80ea466a988d"
-          data-page-id={slug}
-          data-page-url={Astro.url.toString()}
-          data-page-title={post.title}
-          class="bg-[#110d1a]/20 border border-purple-950/30 p-6 rounded-2xl min-h-[150px]"
-        ></div>
-        
-        <script is:inline async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+        <div class="giscus">
+          <script is:inline
+            src="https://giscus.app/client.js"
+            data-repo="andreavae/nocturna"
+            data-repo-id="R_kgDOTItzKQ"
+            data-category="[INSERISCI NOME CATEGORIA]"
+            data-category-id="[INSERISCI ID CATEGORIA]"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="purple_dark"
+            data-lang="it"
+            crossorigin="anonymous"
+            async>
+          </script>
+        </div>
       </section>
     </article>
   </main>
