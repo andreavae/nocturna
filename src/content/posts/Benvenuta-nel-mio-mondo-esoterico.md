@@ -6,7 +6,7 @@ auraColor: deep-purple
 starryBackground: true
 ---
 
-Benvenuta nel mio mondo esoterico
+BENVENUTA NEL MIO MONDO ESOTERICO
 
 C’è un momento, nella vita di molte persone, in cui si inizia a sentire che esiste qualcosa di più profondo di ciò che si vede.
 
@@ -60,23 +60,15 @@ Il mio obiettivo è creare uno spazio che sia semplice, ordinato, accogliente e 
 
 Se sei nuova in questo mondo, ti consiglio di partire da questi argomenti:
 
-* Come scegliere il primo mazzo di tarocchi
+   Come scegliere il primo mazzo di tarocchi
 
-<!---->
+   Come purificare i cristalli
 
-* Come purificare i cristalli
+   Le pietre più adatte per iniziare
 
-<!---->
+   Il significato della Luna nuova
 
-* Le pietre più adatte per iniziare
-
-<!---->
-
-* Il significato della Luna nuova
-
-<!---->
-
-* Introduzione ai rituali energetici
+   Introduzione ai rituali energetici
 
 Non serve sapere tutto subito. La spiritualità non è una corsa, ma un percorso che si builds un passo alla volta.
 
