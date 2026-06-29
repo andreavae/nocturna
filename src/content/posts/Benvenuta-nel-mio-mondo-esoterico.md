@@ -28,10 +28,6 @@ tags:
 
   \- rituali
 
-auraColor: "deep-purple"
-
-starryBackground: true
-
 \---
 
 \# Benvenuta nel mio mondo esoterico
@@ -48,13 +44,11 @@ Può essere:
 
 \- una sensazione che la Luna stia "parlando" in qualche modo;
 
-\- oppure semplicemente il bisogno di rallentare e riconnettersi con sé stesse.
+\- oppure semplicemente il bisogno di rallentare e riconnettersi con séestate.
 
 Se sei arrivata qui, forse anche tu stai attraversando questo momento.
 
 Questo blog nasce proprio da qui: dal desiderio di esplorare il mondo dell’esoterismo in modo semplice, moderno e autentico, senza paura di fare domande e senza la necessità di "crederci per forza", ma con apertura e curiosità.
-
-\---
 
 \## Chi sono
 
@@ -64,7 +58,7 @@ Nel tempo ho iniziato a studiare e approfondire:
 
 \- i tarocchi e il loro linguaggio simbolico;
 
-\- le pietre e i cristalli e il loro significato energetico;
+\- i cristalli e il loro significato energetico;
 
 \- le fasi lunari e il loro impatto sul nostro stato emotivo;
 
@@ -74,19 +68,15 @@ Nel tempo ho iniziato a studiare e approfondire:
 
 Questo spazio nasce come un \*diario condiviso\*, un luogo in cui raccogliere tutto ciò che sto imparando e sperimentando.
 
-\---
-
 \## Cosa troverai in questo blog
 
-Questo non è un blog fatto di regole rigide o verità assolute.
-
-È uno spazio di esplorazione dedicato alla spiritualità moderna e al mondo esoterico.
+Questo non è un blog fatto di regole rigide o verità assolute. È uno spazio di esplorazione dedicato alla spiritualità moderna e al mondo esoterico.
 
 Qui troverai articoli su:
 
 \### Luna e fasi lunari
 
-\- significato delle diverse fases lunari;
+\- significato delle diverse fasi lunari;
 
 \- rituali per Luna nuova e Luna piena;
 
@@ -136,21 +126,9 @@ Qui troverai articoli su:
 
 \- intuizione e consapevolezza.
 
-\---
-
 \## Il mio approccio
 
-Non credo che l’esoterismo debba essere qualcosa di distante, complicato o difficile da comprendere.
-
-Lo immagino invece come qualcosa di:
-
-\- semplice;
-
-\- personale;
-
-\- intuitivo;
-
-\- accessibile.
+Non credo che l’esoterismo debba essere qualcosa di distante, complicato o difficile da comprendere. Lo immagino invece come qualcosa di semplice, personale, intuitivo e accessibile.
 
 In questo blog non troverai:
 
@@ -172,33 +150,15 @@ Troverai invece:
 
 Prendi ciò che risuona con te e lascia andare il resto.
 
-\---
-
 \## Perché questo blog
 
-Ho deciso di creare questo spazio perché sento il bisogno di dare forma a un percorso che spesso si vive da sole.
+Ho deciso di creare questo spazio perché sento il bisogno di dare forma a un percorso che spesso si vive da sole. Il mondo spirituale può essere meraviglioso, ma anche confuso all’inizio. Tra libri, video e informazioni online, è facile sentirsi disorientate e non sapere da dove partire.
 
-Il mondo spirituale può essere meraviglioso, ma anche confuso all’inizio.
-
-Tra libri, video e informazioni online, è facile sentirsi disorientate e non sapere da dove partire.
-
-Il mio obiettivo è creare uno spazio che sia:
-
-\- semplice;
-
-\- ordinato;
-
-\- accogliente;
-
-\- accessibile anche a chi è alle prime esperienze.
-
-Un luogo in cui poter dire:
+Il mio obiettivo è creare uno spazio che sia semplice, ordinato, accogliente e accessibile anche a chi è alle prime esperienze. Un luogo in cui poter dire:
 
 \> "Ok, inizio da qui."
 
-\---
-
-\## Da dare Iniziare
+\## Da dove iniziare
 
 Se sei nuova in questo mondo, ti consiglio di partire da questi argomenti:
 
@@ -212,32 +172,14 @@ Se sei nuova in questo mondo, ti consiglio di partire da questi argomenti:
 
 \- Introduzione ai rituali energetici.
 
-Non serve sapere tutto subito.
-
-La spiritualità non è una corsa, ma un percorso che si costruisce un passo alla volta.
-
-\---
+Non serve sapere tutto subito. La spiritualità non è una corsa, ma un percorso che si costruisce un passo alla volta.
 
 \## Un invito
 
-Questo blog non è solo mio.
-
-Spero che, con il tempo, diventi uno spazio condiviso dove ogni lettrice possa sentirsi libera di:
-
-\- riflettere;
-
-\- esplorare nuovi argomenti;
-
-\- fare domande;
-
-\- riconoscersi nelle esperienze raccontate.
+Questo blog non è solo mio. Spero che, con il tempo, diventi uno spazio condiviso dove ogni lettrice possa sentirsi libera di riflettere, esplorare nuovi argomenti, fare domande e riconoscersi nelle esperienze raccontate.
 
 Se anche solo uno degli articoli che leggerai riuscirà a farti fermare un istante o a guardare le cose da una prospettiva diversa, allora questo progetto avrà già raggiunto il suo scopo.
 
-\---
-
 \## Conclusione
 
-Benvenuta nel mio mondo esoterico.
-
-O forse, più semplicemente, nel tuo.
+Benvenuta nel mio mondo esoterico. O forse, più semplicemente, nel tuo.
