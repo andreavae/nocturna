@@ -1,61 +1,79 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import TinaMarkdown from '@tinacms/astro/TinaMarkdown.astro';
-import { client } from '../../../tina/__generated__/client';
+import Layout from "../../layouts/Layout.astro";
+import TinaMarkdown from "@tinacms/astro/TinaMarkdown.astro";
+import { client } from "../../../tina/__generated__/client";
 
 // Genera i percorsi statici per tutti i post nel CMS
 export async function getStaticPaths() {
   const postsResponse = await client.queries.postConnection();
-  return postsResponse.data.postConnection.edges?.map((edge) => ({
-    params: { slug: edge.node._sys.filename },
-  })) || [];
+  return (
+    postsResponse.data.postConnection.edges?.map((edge) => ({
+      params: { slug: edge.node._sys.filename },
+    })) || []
+  );
 }
 
 const { slug } = Astro.params;
 
 // Recupera i dati del post specifico
-const postResponse = await client.queries.post({ relativePath: `${slug}.json` });
+const postResponse = await client.queries.post({
+  relativePath: `${slug}.json`,
+});
 const post = postResponse.data.post;
 
 // Format date in English
 function formatDate(dateString: string) {
   const date = new Date(dateString);
-  return date.toLocaleDateString('en-US', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
+  return date.toLocaleDateString("en-US", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
   });
 }
 
 // Mappatura dei gradienti dell'aura
 const auraGlows = {
-  'deep-purple': 'bg-[radial-gradient(circle_at_center,rgba(139,92,246,0.15)_0%,rgba(9,7,15,0)_75%)]',
-  'cosmic-black': 'bg-transparent',
-  'blood-moon': 'bg-[radial-gradient(circle_at_center,rgba(185,28,28,0.12)_0%,rgba(9,7,15,0)_75%)]',
-  'witch-green': 'bg-[radial-gradient(circle_at_center,rgba(16,185,129,0.1)_0%,rgba(9,7,15,0)_75%)]',
+  "deep-purple":
+    "bg-[radial-gradient(circle_at_center,rgba(139,92,246,0.15)_0%,rgba(9,7,15,0)_75%)]",
+  "cosmic-black": "bg-transparent",
+  "blood-moon":
+    "bg-[radial-gradient(circle_at_center,rgba(185,28,28,0.12)_0%,rgba(9,7,15,0)_75%)]",
+  "witch-green":
+    "bg-[radial-gradient(circle_at_center,rgba(16,185,129,0.1)_0%,rgba(9,7,15,0)_75%)]",
 };
 
-const auraColorKey = post.auraColor || 'deep-purple';
-const auraGlowClass = auraGlows[auraColorKey as keyof typeof auraGlows] || auraGlows['deep-purple'];
+const auraColorKey = post.auraColor || "deep-purple";
+const auraGlowClass =
+  auraGlows[auraColorKey as keyof typeof auraGlows] || auraGlows["deep-purple"];
 const hasImage = post.image && post.image.trim() !== "";
 ---
 
-<Layout title={`${post.title} — Nocturna`} description={`Read article: ${post.title}`}>
+<Layout
+  title={`${post.title} — Nocturna`}
+  description={`Read article: ${post.title}`}
+>
   <!-- Header Sottile ed Elegante -->
-  <header class="border-b border-purple-950/30 bg-[#09070f]/80 backdrop-blur-md sticky top-0 z-50">
+  <header
+    class="border-b border-purple-950/30 bg-[#09070f]/80 backdrop-blur-md sticky top-0 z-50"
+  >
     <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
       <a href="/" class="flex items-center gap-3 group">
-        <svg 
-          class="w-6 h-6 text-[#d4af37] fill-current drop-shadow-[0_0_8px_rgba(212,175,55,0.6)] group-hover:rotate-12 transition-transform duration-500" 
+        <svg
+          class="w-6 h-6 text-[#d4af37] fill-current drop-shadow-[0_0_8px_rgba(212,175,55,0.6)] group-hover:rotate-12 transition-transform duration-500"
           viewBox="0 0 24 24"
         >
-          <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+          <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
         </svg>
-        <span class="font-cinzel text-xl font-bold tracking-[0.2em] text-[#f1ecf9] group-hover:text-purple-300 transition-colors duration-300">
+        <span
+          class="font-cinzel text-xl font-bold tracking-[0.2em] text-[#f1ecf9] group-hover:text-purple-300 transition-colors duration-300"
+        >
           NOCTURNA
         </span>
       </a>
-      <a href="/" class="text-xs tracking-widest text-purple-300/60 hover:text-[#d4af37] transition-colors duration-300 uppercase">
+      <a
+        href="/"
+        class="text-xs tracking-widest text-purple-300/60 hover:text-[#d4af37] transition-colors duration-300 uppercase"
+      >
         ← Back to chronicles
       </a>
     </div>
@@ -63,44 +81,66 @@ const hasImage = post.image && post.image.trim() !== "";
 
   <main class="relative flex-grow py-12 md:py-20">
     <!-- Sfondi Dinamici (Aura e Stelle) -->
-    <div class={`absolute inset-0 -z-10 pointer-events-none ${auraGlowClass}`} aria-hidden="true"></div>
-    {post.starryBackground && (
-      <div class="absolute inset-0 -z-20 pointer-events-none starry-bg opacity-25" aria-hidden="true"></div>
-    )}
+    <div
+      class={`absolute inset-0 -z-10 pointer-events-none ${auraGlowClass}`}
+      aria-hidden="true"
+    >
+    </div>
+    {
+      post.starryBackground && (
+        <div
+          class="absolute inset-0 -z-20 pointer-events-none starry-bg opacity-25"
+          aria-hidden="true"
+        />
+      )
+    }
 
     <article class="max-w-3xl mx-auto px-6">
       <!-- Intestazione Articolo -->
       <header class="text-center space-y-6 mb-12">
-        <div class="text-xs text-[#d4af37] tracking-widest uppercase font-medium">
+        <div
+          class="text-xs text-[#d4af37] tracking-widest uppercase font-medium"
+        >
           <span>{formatDate(post.date)}</span>
-          {post.auraColor && (
-            <>
-              <span class="mx-2">•</span>
-              <span>Energy: {post.auraColor.replace('-', ' ')}</span>
-            </>
-          )}
+          {
+            post.auraColor && (
+              <>
+                <span class="mx-2">•</span>
+                <span>Energy: {post.auraColor.replace("-", " ")}</span>
+              </>
+            )
+          }
         </div>
-        
-        <h1 class="text-3xl md:text-5xl font-extrabold tracking-wide text-[#f1ecf9] leading-tight font-cinzel">
+
+        <h1
+          class="text-3xl md:text-5xl font-extrabold tracking-wide text-[#f1ecf9] leading-tight font-cinzel"
+        >
           {post.title}
         </h1>
-        
-        <div class="w-24 h-px bg-gradient-to-r from-transparent via-[#d4af37]/60 to-transparent mx-auto"></div>
+
+        <div
+          class="w-24 h-px bg-gradient-to-r from-transparent via-[#d4af37]/60 to-transparent mx-auto"
+        >
+        </div>
       </header>
 
       <!-- Immagine di Copertina -->
-      {hasImage && (
-        <div class="mb-12 rounded-2xl overflow-hidden border border-purple-950/40 shadow-[0_10px_30px_rgba(139,92,246,0.15)]">
-          <img 
-            src={post.image} 
-            alt={post.title} 
-            class="w-full h-auto max-h-[450px] object-cover"
-          />
-        </div>
-      )}
+      {
+        hasImage && (
+          <div class="mb-12 rounded-2xl overflow-hidden border border-purple-950/40 shadow-[0_10px_30px_rgba(139,92,246,0.15)]">
+            <img
+              src={post.image}
+              alt={post.title}
+              class="w-full h-auto max-h-[450px] object-cover"
+            />
+          </div>
+        )
+      }
 
       <!-- Corpo del Testo con Capolettera -->
-      <div class="prose prose-invert prose-purple max-w-none prose-mystic text-purple-200/90 leading-relaxed text-lg space-y-6">
+      <div
+        class="prose prose-invert prose-purple max-w-none prose-mystic text-purple-200/90 leading-relaxed text-lg space-y-6"
+      >
         <TinaMarkdown content={post.body} />
       </div>
 
@@ -114,9 +154,10 @@ const hasImage = post.image && post.image.trim() !== "";
             Leave your reflection or share your vision.
           </p>
         </div>
-        
+
         <div class="giscus">
-          <script is:inline
+          <script
+            is:inline
             src="https://giscus.app/client.js"
             data-repo="andreavae/nocturna"
             data-repo-id="R_kgDOTItzKQ"
@@ -130,8 +171,8 @@ const hasImage = post.image && post.image.trim() !== "";
             data-theme="purple_dark"
             data-lang="en"
             crossorigin="anonymous"
-            async>
-          </script>
+            async
+          ></script>
         </div>
       </section>
     </article>
