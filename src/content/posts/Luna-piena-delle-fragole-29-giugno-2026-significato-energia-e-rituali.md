@@ -50,7 +50,10 @@ Questa Luna piena è perfetta per piccoli rituali semplici e intenzionali.
 1. Scrivere ciò che vuoi lasciare andar.  Prendi carta e penna e scrivi emozioni, situazioni o pensieri che non vuoi più portare con te.
 
    Poi puoi bruciare il foglio in sicurezza o strapparlo e buttarlo
-2. Purificare i cristalli. La Luna piena è il momento ideale per purificare e ricaricare i cristalli. 
+2. Purificare i cristalli. La Luna piena è il momento ideale per purificare e ricaricare i cristalli.
 
    Puoi lasciarli alla luce lunare per qualche ora sul davanzale all'aperto
-3.
+3. Accendere una candela. Una candela bianca o dorata può aiutare a creare uno spazio di calma e introspezione.
+
+   Durante questo momento puoi: meditare, respirare profondamente, 
+
