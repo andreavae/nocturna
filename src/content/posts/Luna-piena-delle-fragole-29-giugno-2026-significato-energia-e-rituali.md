@@ -58,9 +58,7 @@ Questa Luna piena è perfetta per piccoli rituali semplici e intenzionali.
    Durante questo momento puoi: meditare, respirare profondamente, visualizzare cosa vuoi attrat
 4. Bagno energetico o doccia consapevole. L’acqua è simbolicamente legata alla purificazione.
 
-
    Puoi trasformare una semplice doccia in un ritualimmaginando di lasciare andare le energie pesanti
 
-   concentrandoti sul respiro
+   e concentrandoti sul respiro 
 
-   e:
