@@ -1,7 +1,7 @@
 ---
 title: 'Mercurio retrogrado 2026: cosa significa, effetti e come affrontarlo'
 date: 2026-06-29T21:19:48.264Z
-image: ''
+image: /uploads/_-(1).jpeg
 auraColor: deep-purple
 starryBackground: true
 ---
