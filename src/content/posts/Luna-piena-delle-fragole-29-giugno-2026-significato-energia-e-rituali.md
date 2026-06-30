@@ -61,7 +61,7 @@ Durante questo momento puoi: meditare, respirare profondamente, visualizzare cos
 
 **Bagno energetico o doccia consapevole**. L’acqua è simbolicamente legata alla purificazione.
 
-Puoi trasformare una semplice doccia in un ritualimmaginando di lasciare andare le energie pesantie   concentrandoti sul respiro 
+Puoi trasformare una semplice doccia in un ritualimmaginando di lasciare andare le energie pesantie       concentrandoti sul respi ro
 
 ### **Cosa evitare durante la Luna piena**
 
