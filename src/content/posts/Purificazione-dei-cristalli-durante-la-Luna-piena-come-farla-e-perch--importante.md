@@ -1,7 +1,7 @@
 ---
 title: 'Purificazione dei cristalli durante la Luna piena: come farla e perché è importante'
 date: 2026-06-29T21:19:48.264Z
-image: ''
+image: /uploads/_-(2).jpeg
 auraColor: deep-purple
 starryBackground: true
 ---
@@ -18,7 +18,7 @@ La Luna piena è associata simbolicamente al completamento di un ciclo, alla chi
 
 È importante ricordare che queste pratiche appartengono all'ambito delle credenze spirituali e non sono supportate da prove scientifiche. Il loro valore risiede soprattutto nel significato simbolico e nell'esperienza personale di chi le pratica.
 
-### Come purificare i cristalli con la Luna piena
+### Cpurificare i cristalli con la Luna piena
 
 Uno dei metodi più semplici consiste nell'esporre i cristalli alla luce della Luna piena durante la notte. È possibile posizionarli su un davanzale, su un balcone, in giardino oppure vicino a una finestra da cui la luce lunare possa raggiungerli. Molte persone preferiscono lasciarli all'aperto per tutta la notte e ritirarli al mattino seguente, quando il rituale è considerato concluso.
 
