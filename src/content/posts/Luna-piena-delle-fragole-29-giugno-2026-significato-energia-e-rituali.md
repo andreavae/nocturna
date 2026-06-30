@@ -61,3 +61,7 @@ Questa Luna piena è perfetta per piccoli rituali semplici e intenzionali.
    Puoi trasformare una semplice doccia in un ritualimmaginando di lasciare andare le energie pesanti
 
    e concentrandoti sul respiro
+
+### **Cosa evitare durante la Luna piena**
+
+Durante la Luna piena l’energia è molto intensa, quindi è utile evitare: decisioni impulsive, 
