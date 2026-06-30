@@ -53,7 +53,7 @@ Questa Luna piena è perfetta per piccoli rituali semplici e intenzionali.
 
 **Accendere una candela**. Una candela bianca o dorata può aiutare a creare uno spazio di calma e introspezione.Durante questo momento puoi: meditare, respirare profondamente, visualizzare cosa vuoi attrat
 
-**Bagno energetico o doccia consapevole**. L’acqua è simbolicamente legata alla purificazione.Puoi trasformare una semplice doccia in un ritualimmaginando di lasciare andare le energie pn
+**Bagno energetico o doccia consapevole**. L’acqua è simbolicamente legata alla purificazione.Puoi trasformare una semplice doccia in un ritualimmaginando di lasciare andare le energie pesanti concentrandoti sul respiro.
 
 ### **Cosa evitare durante la Luna piena**
 
