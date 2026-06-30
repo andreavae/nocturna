@@ -15,3 +15,12 @@ Questa Luna piena non è solo un evento astronomico, ma anche un momento simboli
 In questo articolo scoprirai il significato della Luna piena delle fragole, la sua energia e alcuni semplici rituali da praticare in questa giornata.
 
 ### **Perché si chiama Luna piena delle fragole**
+
+Il nome “Strawberry Moon” non indica che la Luna diventi rosa o rossa come una fragola.
+
+Questo termine deriva dalle tribù Algonchine, che usavano questo periodo lunare per segnare la stagione della raccolta delle fragole selvatiche.
+
+In Europa, questa Luna piena di giugno è spesso associata a:
+
+* maturazione
+*
