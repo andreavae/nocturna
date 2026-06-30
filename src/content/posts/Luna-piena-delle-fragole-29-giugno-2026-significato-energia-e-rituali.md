@@ -47,20 +47,21 @@ Quella del 29 giugno 2026 porta un’energia di:
 
 Questa Luna piena è perfetta per piccoli rituali semplici e intenzionali.
 
-1. Scrivere ciò che vuoi lasciare andar.  Prendi carta e penna e scrivi emozioni, situazioni o pensieri che non vuoi più portare con te.
+**Scrivere ciò che vuoi lasciare andar.**  Prendi carta e penna e scrivi emozioni, situazioni o pensieri che non vuoi più portare con te.
 
-   Poi puoi bruciare il foglio in sicurezza o strapparlo e buttarlo
-2. Purificare i cristalli. La Luna piena è il momento ideale per purificare e ricaricare i cristalli.
+Poi puoi bruciare il foglio in sicurezza o strapparlo e buttarlo
 
-   Puoi lasciarli alla luce lunare per qualche ora sul davanzale all'aperto
-3. Accendere una candela. Una candela bianca o dorata può aiutare a creare uno spazio di calma e introspezione.
+**Purificare i cristalli**. La Luna piena è il momento ideale per purificare e ricaricare i cristalli.
 
-   Durante questo momento puoi: meditare, respirare profondamente, visualizzare cosa vuoi attrat
-4. Bagno energetico o doccia consapevole. L’acqua è simbolicamente legata alla purificazione.
+Puoi lasciarli alla luce lunare per qualche ora sul davanzale all'aperto
 
-   Puoi trasformare una semplice doccia in un ritualimmaginando di lasciare andare le energie pesanti
+**Accendere una candela**. Una candela bianca o dorata può aiutare a creare uno spazio di calma e introspezione.
 
-   e concentrandoti sul respiro
+Durante questo momento puoi: meditare, respirare profondamente, visualizzare cosa vuoi attrat
+
+**Bagno energetico o doccia consapevole**. L’acqua è simbolicamente legata alla purificazione.
+
+Puoi trasformare una semplice doccia in un ritualimmaginando di lasciare andare le energie pesantie   concentrandoti sul respiro 
 
 ### **Cosa evitare durante la Luna piena**
 
