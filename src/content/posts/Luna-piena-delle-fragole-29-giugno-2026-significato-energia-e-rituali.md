@@ -65,6 +65,18 @@ Questa Luna piena è perfetta per piccoli rituali semplici e intenzionali.
 ### **Cosa evitare durante la Luna piena**
 
 Durante la Luna piena l’energia è molto intensa, quindi è utile evitare: decisioni impulsive, conflitti inutili,
- sovraccarico emotiv,o pensieri ossessivi.
+sovraccarico emotivo, pensieri ossessivi.
 
- 
+È un momento di consapevolezza, non di azione affrettata.
+
+### **Significato spirituale della Luna piena delle fragole**
+
+Dal punto di vista simbolico, questa Luna rappresenta: la maturità emotiva, la chiusura di un ciclo, la gratitudine per ciò che è stato, la preparazione a un nuovo inizio.
+
+È una Luna che invita a fermarsi e riconoscere il proprio percorso.
+
+La Luna piena delle fragole del 29 giugno 2026 è un momento energetico potente e simbolico.
+
+Non serve fare rituali complessi: basta anche solo fermarsi, respirare e ascoltare ciò che si muove dentro.
+
+Questa Luna non chiede perfezione, ma consapevolezza. 🌕
