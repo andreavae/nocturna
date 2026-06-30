@@ -60,5 +60,4 @@ Questa Luna piena è perfetta per piccoli rituali semplici e intenzionali.
 
    Puoi trasformare una semplice doccia in un ritualimmaginando di lasciare andare le energie pesanti
 
-   e concentrandoti sul respiro 
-
+   e concentrandoti sul respiro
