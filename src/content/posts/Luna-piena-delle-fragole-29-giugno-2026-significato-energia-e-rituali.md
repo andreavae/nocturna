@@ -35,7 +35,7 @@ La Luna piena è sempre un momento di massima energia, ma ogni Luna ha una sua s
 
 Quella del 29 giugno 2026 porta un’energia di:
 
-**Consapevolezza**:Èun momento in cui ciò che era nascosto diventa più chiaro.
+**Consapevolezza **: È un momento in cui ciò che era nascosto diventa più chiaro.
 
 **Raccolto**: Si tirano le somme dei mesi precedenti, sia emotivamente che interiormente.
 
@@ -47,13 +47,11 @@ Quella del 29 giugno 2026 porta un’energia di:
 
 Questa Luna piena è perfetta per piccoli rituali semplici e intenzionali.
 
-1. Scrivere ciò che vuoi lasciare andar.  Prendi carta e penna e scrivi emozioni, situazioni o pensieri che non vuoi più portare con te. Poi puoi:
-
-   bruciare il foglio in sicurezza
-
-   oppure strapparlo e buttarlo
+1. Scrivere ciò che vuoi lasciare andar.  Prendi carta e penna e scrivi emozioni, situazioni o pensieri che non vuoi più portare con te. 
 
 
-2. Purificare i cristalli. La Luna piena è il momento ideale per purificare e ricaricare i cristalli.
+   Poi puoi:
+
+
+2. Purificare i cristalli. La Luna piena è il momento ideale per purificare e ricaricare i cristalli. Puoi lasciarli alla luce lunare per qualche ora sul davanzale all'aperto
 3.
-
