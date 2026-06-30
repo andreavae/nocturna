@@ -64,4 +64,7 @@ Questa Luna piena è perfetta per piccoli rituali semplici e intenzionali.
 
 ### **Cosa evitare durante la Luna piena**
 
-Durante la Luna piena l’energia è molto intensa, quindi è utile evitare: decisioni impulsive, 
+Durante la Luna piena l’energia è molto intensa, quindi è utile evitare: decisioni impulsive, conflitti inutili,
+ sovraccarico emotiv,o pensieri ossessivi.
+
+ 
