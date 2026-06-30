@@ -35,4 +35,16 @@ La Luna piena è sempre un momento di massima energia, ma ogni Luna ha una sua s
 
 Quella del 29 giugno 2026 porta un’energia di:
 
-Consapevolezza:Èun momento in cui ciò che era nascosto diventa più chiaro.
+**Consapevolezza**:Èun momento in cui ciò che era nascosto diventa più chiaro.
+
+**Raccolto**: Si tirano le somme dei mesi precedenti, sia emotivamente che interiormente.
+
+**Rilascio**: È il momento ideale per lasciare andare ciò che non serve più.
+
+**Gratitudine**: Si riconosce ciò che è cresciuto nella propria vita.
+
+### **Cosa fare durante la Luna piena delle fragole**
+
+Questa Luna piena è perfetta per piccoli rituali semplici e intenzionali.
+
+1.  Scrivere ciò che vuoi lasciare andare
