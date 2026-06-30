@@ -23,4 +23,8 @@ Questo termine deriva dalle tribù Algonchine, che usavano questo periodo lunare
 In Europa, questa Luna piena di giugno è spesso associata a:
 
 * maturazione
-*
+* abbondanza
+* raccolto energetico
+* fine di un ciclo primaverile
+
+È una Luna che parla di **chiusura e pienezza,** prima dell’ingresso simbolico nell’estate profonda.
