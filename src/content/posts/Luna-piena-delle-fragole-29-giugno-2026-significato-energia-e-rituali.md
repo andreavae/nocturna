@@ -6,3 +6,4 @@ auraColor: deep-purple
 starryBackground: true
 ---
 
+**Luna piena delle fragole 29 giugno 2026: significato, energia e rituali**
