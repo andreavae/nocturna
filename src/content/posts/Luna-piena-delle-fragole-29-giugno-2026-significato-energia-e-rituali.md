@@ -28,3 +28,11 @@ In Europa, questa Luna piena di giugno è spesso associata a:
 * fine di un ciclo primaverile
 
 È una Luna che parla di **chiusura e pienezza,** prima dell’ingresso simbolico nell’estate profonda.
+
+### **Energia della Luna piena del 29 giugno 2026**
+
+La Luna piena è sempre un momento di massima energia, ma ogni Luna ha una sua sfumatura particolare.
+
+Quella del 29 giugno 2026 porta un’energia di:
+
+Consapevolezza:Èun momento in cui ciò che era nascosto diventa più chiaro.
