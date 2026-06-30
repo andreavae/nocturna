@@ -6,7 +6,7 @@ auraColor: deep-purple
 starryBackground: true
 ---
 
-BENVENUTA NEL MIO MONDO ESOTERICO
+Benvenuta nel mio mondo esoterico
 
 C’è un momento, nella vita di molte persone, in cui si inizia a sentire che esiste qualcosa di più profondo di ciò che si vede.
 
