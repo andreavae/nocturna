@@ -13,3 +13,5 @@ La Luna piena del 29 giugno 2026 è conosciuta come Luna piena delle fragole, un
 Questa Luna piena non è solo un evento astronomico, ma anche un momento simbolico molto potente dal punto di vista energetico e spirituale.
 
 In questo articolo scoprirai il significato della Luna piena delle fragole, la sua energia e alcuni semplici rituali da praticare in questa giornata.
+
+### **Perché si chiama Luna piena delle fragole**
