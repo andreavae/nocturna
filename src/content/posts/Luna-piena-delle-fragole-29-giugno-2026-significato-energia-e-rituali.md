@@ -55,7 +55,12 @@ Questa Luna piena è perfetta per piccoli rituali semplici e intenzionali.
    Puoi lasciarli alla luce lunare per qualche ora sul davanzale all'aperto
 3. Accendere una candela. Una candela bianca o dorata può aiutare a creare uno spazio di calma e introspezione.
 
-   Durante questo momento puoi: meditare, respirare profondamente, visualizzare cosa vuoi attrat  
+   Durante questo momento puoi: meditare, respirare profondamente, visualizzare cosa vuoi attrat
 4. Bagno energetico o doccia consapevole. L’acqua è simbolicamente legata alla purificazione.
-   Puoi trasformare una semplice doccia in un rituale:
 
+
+   Puoi trasformare una semplice doccia in un ritualimmaginando di lasciare andare le energie pesanti
+
+   concentrandoti sul respiro
+
+   e:
