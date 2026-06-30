@@ -50,27 +50,11 @@ Troverai invece strumenti, spunti di riflessione, informazioni raccolte con cura
 
 Prendi ciò che risuona con te e lascia andare il resto.
 
-Perché questo blog
+### **Perché questo blog**
 
 Ho deciso di creare questo spazio perché sento il bisogno di dare forma a un percorso che spesso si vive da sole. Il mondo spirituale può essere meraviglioso, ma anche confuso all’inizio. Tra libri, video e informazioni online, è facile sentirsi disorientate e non sapere da dove partire.
 
 Il mio obiettivo è creare uno spazio che sia semplice, ordinato, accogliente e accessibile anche a chi è alle prime esperienze. Un luogo in cui poter dire: Ok, inizio da qui.
-
-### **Da dove iniziare**
-
-Se sei nuova in questo mondo, ti consiglio di partire da questi argomenti:
-
-   Come scegliere il primo mazzo di tarocchi
-
-   Come purificare i cristalli
-
-   Le pietre più adatte per iniziare
-
-   Il significato della Luna nuova
-
-   Introduzione ai rituali energetici
-
-Non serve sapere tutto subito. La spiritualità non è una corsa, ma un percorso che si builds un passo alla volta.
 
 ### **Un invito**
 
@@ -78,6 +62,4 @@ Questo blog non è solo mio. Spero che, con il tempo, diventi uno spazio condivi
 
 Se anche solo uno degli articoli che leggerai riuscirà a farti fermare un istante o a guardare le cose da una prospettiva diversa, allora questo progetto avrà già raggiunto il suo scopo.
 
-### **Conclusione**
-
-Benvenuta nel mio mondo esoterico. O forse, più semplicemente, nel tuo.
+Benvenuta nel mio mondo esoterico. O forse, più semplicemente, nel tuo.✨
