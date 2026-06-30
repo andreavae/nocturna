@@ -47,4 +47,13 @@ Quella del 29 giugno 2026 porta un’energia di:
 
 Questa Luna piena è perfetta per piccoli rituali semplici e intenzionali.
 
-1.  Scrivere ciò che vuoi lasciare andare
+1. Scrivere ciò che vuoi lasciare andar.  Prendi carta e penna e scrivi emozioni, situazioni o pensieri che non vuoi più portare con te. Poi puoi:
+
+   bruciare il foglio in sicurezza
+
+   oppure strapparlo e buttarlo
+
+
+2. Purificare i cristalli. La Luna piena è il momento ideale per purificare e ricaricare i cristalli.
+3.
+
